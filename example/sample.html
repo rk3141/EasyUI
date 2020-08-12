@@ -10,10 +10,12 @@
 	</head>
 	<body>
 		<script>
-			const body = new Layer(document.body);
+			const body = new UI(document.body);
 			let c1 = new Component('h1',['test'],{},'Hello')
+			let yt = new Component('iframe',[],{'src':"https://youtube.com"},'')
 			body.place(c1)
+			body.place(yt)
 			body.show()
-		</script>		
+		</script>
 	</body>
 </html>

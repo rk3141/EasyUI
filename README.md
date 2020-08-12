@@ -1,5 +1,7 @@
 # EasyUI
-
+```
+VERSION: 1.1.0
+```
 ### EasyUI is an easy-to-use HTML generator.
 
 ## How to add to a existing or new project
@@ -29,7 +31,7 @@ Then open your ```HTML``` file in an editor of your choice, and add EasyUI.
 	...
 	<script type="text/javascript" src="EasyUI/lib/easy.js"></script>
 	<script>
-		const layer = new Layer(document.body); // Replace with document.getElementById('id') if you want everything in one element
+		const layer = new UI(document.body); // Replace with document.getElementById('id') if you want everything in one element
 		let c = new Component('h1',['CSS_CLASSES'],{ATTR},'Hello, World') // new Component(TAGNAME,[CSS_CLASSES],{ATTRIBUTES},Content)
 		layer.place(c)
 	</script>
@@ -47,7 +49,7 @@ Then open your ```HTML``` file in an editor of your choice, and add EasyUI.
 	...
 	<script type="text/javascript" src="EasyUI/lib/easy.js"></script>
 	<script>
-		const layer = new Layer(document.body); // Replace with document.getElementById('id') if you want everything in one element
+		const layer = new UI(document.body); // Replace with document.getElementById('id') if you want everything in one element
 		let c = new Component('h1',['CSS_CLASSES'],'Hello, World') // new Component(TAGNAME,[CSS_CLASSES],Content)
 		body.place(c)
 	</script>
