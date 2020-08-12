@@ -1,6 +1,6 @@
 # EasyUI
 ```
-VERSION: 1.1.0
+VERSION: 1.1.1
 ```
 ### EasyUI is an easy-to-use HTML generator.
 
