@@ -2,7 +2,7 @@
 
 ### EasyUI is an easy-to-use HTML generator.
 
-## How to use
+## How to add to a existing or new project
 ```bash
 $ cd YOUR_WORKING_DIR
 $ git clone https://github.com/rishit-khandelwal/EasyUI
@@ -22,7 +22,7 @@ Then open your ```HTML``` file in an editor of your choice, and add EasyUI.
 </html>
 ```
 
-### Then add a script tag
+### Then add EasyUI Layer object and Components
 ```html
 <html>
 	<head>
@@ -40,7 +40,7 @@ Then open your ```HTML``` file in an editor of your choice, and add EasyUI.
 </html>
 ```
 
-### Displaying the output
+### Displaying the content
 ```html
 <html>
 	<head>
