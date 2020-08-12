@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>EasyUI</title>
+		<script type="text/javascript" src="../lib/easy.js"></script>
+		<style>
+			.test {
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<script>
+			const body = new Layer(document.body);
+			let c1 = new Component('h1',['test'],{},'Hello')
+			body.place(c1)
+			body.show()
+		</script>		
+	</body>
+</html>

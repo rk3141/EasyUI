@@ -1,0 +1,19 @@
+{
+  "name": "easyui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishit-khandelwal/EasyUI.git"
+  },
+  "author": "Rishit Khandelwal",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/rishit-khandelwal/EasyUI/issues"
+  },
+  "homepage": "https://github.com/rishit-khandelwal/EasyUI#readme"
+}
